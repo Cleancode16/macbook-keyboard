@@ -3,7 +3,7 @@ import {Circle,ChevronLeft,ChevronUp,ChevronRight,ChevronDown} from 'lucide-reac
 function KeyBoard() {
   return (
     <div className='flex justify-center flex-col align-center'>
-      <div className='bg-neutral-700 w-[1014px] ml-2 mr-2 mb-2 mt-8 h-64 rounded-lg grid grid-rows-6 '> 
+      <div className='bg-neutral-700 w-[1014px] ml-2 mr-2 mb-2 mt-8 h-[370px] rounded-lg grid grid-rows-6 '> 
        <div className='flex flex-row'>
         <button className='text-white bg-black m-1 px-5 py-1 rounded-md text-xs shadow-[_2px_2px_2px_rgba(_200,_200,_200,_0.6)] hover:shadow-[0_6px_11px_rgba(8,_112,_184,_0.7)]
  '>esc</button>
@@ -159,7 +159,7 @@ function KeyBoard() {
         <div className='flex flex-col m-1'>
                   <button className='text-white bg-black  px-2  rounded-md mb-1 h-8 shadow-[_2px_2px_2px_rgba(_200,_200,_200,_0.6)] hover:shadow-[0_6px_11px_rgba(8,_112,_184,_0.7)]'><ChevronUp className='text-xs'/></button>
    
-        <button className='text-white bg-black  px-2  rounded-md shadow-[_2px_2px_2px_rgba(_200,_200,_200,_0.6)] hover:shadow-[0_6px_11px_rgba(8,_112,_184,_0.7)]'><ChevronDown className='text-xs'/></button>
+        <button className='text-white bg-black  px-2  rounded-md shadow-[_2px_2px_2px_rgba(_200,_200,_200,_0.6)] hover:shadow-[0_6px_11px_rgba(8,_112,_184,_0.7)] mb-1'><ChevronDown className='text-xs'/></button>
         </div>
 
         <button className='text-white bg-black m-1 px-1 py-1 rounded-md shadow-[_2px_2px_2px_rgba(_200,_200,_200,_0.6)] hover:shadow-[0_6px_11px_rgba(8,_112,_184,_0.7)]'><ChevronRight className='text-xs' /></button>
